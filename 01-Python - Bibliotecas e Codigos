@@ -1,0 +1,178 @@
+01-Python - Bibliotecas e Codigos
+--==========================================
+#Bibliotecas - https://www.youtube.com/watch?v=yF1tJcpBi9o
+----------------
+Todas as bibliotecas de Python explicadas em 1 vídeo
+https://www.youtube.com/watch?v=yF1tJcpBi9o
+
+Manipulação e Análise de Dados em Python – 
+(OpenPyXL, Pandas, NumPy, Polars, PySpark)
+
+#B01 - OpenPyXL - pip install openpyxl
+#B02 - Pandas - pip install 
+https://www.youtube.com/watch?v=TMfMkgLkeBQ&t=28s
+
+
+#B03 - NumPy - pip install 
+
+#B04 - Polars - pip install 
+
+#B05 - PySpark - pip install 
+
+
+
+LLM - Large Language Models
+Inteligência Artificial e Machine Learning em Python
+(Scikit-Learn, PyTorch, TensorFlow, LangChain, Hugging Face)
+
+#B06 - Scikit-Learn - pip install 
+
+#B07 - PyTorch - pip install 
+
+#B08 - TensorFlow - pip install 
+
+#B09 - LangChain - pip install 
+
+#B10 - Hugging Face  - pip install 
+
+
+
+ Web Scraping e Automação com Python – 
+(Requests, BeautifulSoup, Playwright, Selenium, Scrapy, PyAutoGUI)
+
+#B11 - Requests
+
+#B12 - BeautifulSoup
+
+#B13 - Playwright 
+
+#B14 - Selenium
+
+#B15 - Scrapy
+
+#B16 - PyAutoGUI
+
+
+
+Desenvolvimento Web com Python – 
+(FastAPI, Django, Flask, Pydantic)
+#B17 - 
+#B18 - 
+#B19 - 
+#B20 - 
+
+
+
+Visualização de Dados e Dashboards em Python – 
+(Matplotlib, Seaborn, Plotly, Streamlit)
+#B21 -
+#B22 -
+#B23 -
+#B24 -
+
+
+
+Ferramentas e Bibliotecas Utilitárias do Python –
+ (PyInstaller, smtplib, Email, Pickle, PyTest)
+#B25 -
+#B26 -
+#B27 -
+#B28 -
+#B29 -
+
+
+
+Visão Computacional e Processamento de Imagens – 
+(OpenCV, Pillow)
+#B30 -
+#B31 -
+
+
+
+Bancos de Dados e ORM em Python – 
+(SQLAlchemy, SQLite)
+#B32 -
+#B33 -
+
+
+
+Interfaces Gráficas e Aplicativos com Python – 
+(Tkinter, Kivy)
+#B34 -
+#B35 -
+
+
+
+
+
+--==============================================
+#Codigos
+----------------
+#C01
+#C02
+#C03
+#C04
+#C05
+#C06
+#C08
+#C09
+#C10
+
+
+
+--=============================================================================
+
+#B01-OPENPYXL
+--------------------------
+
+--------------------------
+#video- https://www.youtube.com/watch?v=IvMdA471dPw
+
+# origens : anotações.txt e vendas.xlsx
+app.py
+
+from openpyxl import load_workbook, Workbook
+
+# LER DADOS DE QUALQUER PLANILHA
+plan_vendas = load_workbook('c:/vendas.xlsx')
+pag_vendas = plan_vendas['sheet']
+
+for linha in plan1.iter_rows( values_only = true):
+     print(linha)	
+
+
+# AUTOMATIZAR ENTRADA DE DADOS EM PLANILHA (importar do txt para planilha)
+plan_contas = Workbook()
+pag1 = planilha contas.active
+
+#Abrir arquivo txt
+with open('anotações.txt','r',encoding = 'utf-8') as :arquivo
+       for linha in arquivo
+            pag1.append(linha.split(','))
+plan_contas.save('contas_pg.xlsx')
+
+--------------------------
+
+
+
+
+#B02
+#B03
+#B04
+#B05
+#B06
+#B07
+#B08
+#B09
+#B10
+
+#Codigos
+#C01
+#C02
+#C03
+#C04
+#C05
+#C06
+#C08
+#C09
+#C10
