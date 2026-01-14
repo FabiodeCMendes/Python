@@ -153,9 +153,6 @@ plan_contas.save('contas_pg.xlsx')
 
 --------------------------
 
-
-
-
 #B02
 #B03
 #B04
