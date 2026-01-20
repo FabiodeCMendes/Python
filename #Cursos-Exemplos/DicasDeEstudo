@@ -1,0 +1,22 @@
+Dicas para Estudos
+
+----------------
+Projetos
+ -automação
+-analise de dados
+-sistemas
+
+
+Ferramentas
+-analise de dados (Panda NumPy)
+-Graficas (plotly, matplotlib,seaborn)
+-dashboard (streamlit,dash)
+-sistemas(flask, django,FastAPI)
+
+-bd orm (sqlAlchemy
+
+Web Scraping : (beautifulSoup, Selenium e Playwright)
+
+integração APIs : APIs, requests, rest APIs
+
+Automação (RPA) : (pyautogui, keyboard, automações nativas)
